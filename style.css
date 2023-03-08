@@ -23,6 +23,7 @@ header{
 }
 .banner{
     width: 100%;
+    
 }
 a{
     color: black;
@@ -69,4 +70,14 @@ ul{
     width: 90%;
     text-align: center;
     color: rgb(147,116,65);
+}
+.icons img{
+    width: 50px;
+}
+.hotel{
+    margin: 0 auto;
+    max-width: 500px;
+}
+.hotel h2{
+    text-align: center;
 }
