@@ -160,8 +160,11 @@ ul{
 .card p{
     color: rgb(133, 112, 63);
     font-size: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .card-container{
     margin-top: -200px;
