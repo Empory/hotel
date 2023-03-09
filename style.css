@@ -157,7 +157,7 @@ ul{
 .card p{
     color: rgb(133, 112, 63);
     font-size: 20px;
-    padding: 10px;
+    padding-bottom: 20px;
     text-align: center;
 }
 .card-container{
@@ -171,17 +171,17 @@ ul{
     .card-container{
         display: flex;
         flex-direction: column;
-        margin-top: -100px;
+        margin-top: -300px;
 
     }
     .card{
         border: 1px solid black;
-        
+        height: 250px;
         
     
     }
     .card p{
-        
+        margin: 0;
     }   
     .res i,.res p,.res select{
         display: none;
