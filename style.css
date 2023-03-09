@@ -173,15 +173,15 @@ ul{
         flex-direction: column;
         margin-top: -100px;
 
-    }/*
+    }
     .card{
         border: 1px solid black;
-        width: 365px;
+        width: 200px;
     
     }
     .card p{
         margin-bottom: 50px;
-    }   */ 
+    }   
     .res i,.res p,.res select{
         display: none;
     }
