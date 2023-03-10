@@ -53,8 +53,4 @@
                 </ul>
             </div>
         </div>
-        <div class="home">
-            <div class="about-hotel">
-                <h2>HOTEL</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, qui modi dolorum libero sunt voluptas saepe quisquam cumque odit. Quidem exercitationem error ducimus, provident, ex corporis, officia repellendus nisi rerum vitae illum itaque ipsum. Error recusandae aut excepturi quam possimus adipisci dolores nemo magni, sapiente molestiae esse commodi dignissimos similique? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod quae inventore quam ipsa porro commodi totam maxime adipisci quia, necessitatibus accusantium corrupti velit, nisi distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, corporis dolor recusandae ullam cumque quaerat?</p>
-            </div>
+       
