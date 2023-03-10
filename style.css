@@ -140,8 +140,9 @@ ul{
 }
   
 .image-container img{
+    max-width: 400px;
     display: block;
-    width: 100%;
+    
     height: 100%;
     transition: transform 0.5s ease;
 }
@@ -151,8 +152,8 @@ ul{
 }
 .card{
     border: 1px solid black;
-    width: 375px;
-    height: 390px;
+    width: 355px;
+    height: 320px;
     overflow: hidden;
     position: relative;
     display: flex;
@@ -161,7 +162,7 @@ ul{
     align-items: center;
     background-color: white;
     padding: 0 0 40px 0;
-    gap: 30px;
+    gap: 20px;
     cursor: pointer;
 }
 .card p{
@@ -190,6 +191,7 @@ ul{
     .card{
         border: 1px solid black;
         height: 250px;
+        padding-bottom: 65px;
         
     
     }
