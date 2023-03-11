@@ -13,3 +13,18 @@
         <div class="location">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.4710625098487!2d30.397038951351163!3d40.773656979223915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ccb32e76fb7e15%3A0x564b4187c811f257!2sAda%20Felicity%20Otel!5e0!3m2!1str!2str!4v1678434429920!5m2!1str!2str" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="script.js"></script>

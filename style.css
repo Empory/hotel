@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+  
 *{
     margin: 0;
     padding: 0;
@@ -7,12 +13,18 @@ body{
     height: 100vh;
     display: flex;
     justify-content: center;
-    font-family: 'Times New Roman', sans-serif;
+    font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
    
 }
 .main{
     width: 100%;
+}
+.top{
+    gap: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 img{
     object-fit: fill;
@@ -43,6 +55,29 @@ a{
     text-decoration: none;
     margin: 0 10px;
 }
+a:hover{
+    color: rgb(84,146,92);
+}
+/*
+.fa-light{
+    
+    background-color: white;
+    
+    text-align: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 30px;
+    height:30px;
+
+
+  
+}
+.hidden{
+    display: none;
+}
+*/
 li{
     list-style: none;
     
@@ -54,12 +89,31 @@ nav{
     gap: 15px;
     align-items: center;
 }
-ul{
+
+nav ul{
     display: flex;
+    position: relative;
+    
 }
-@media(max-width:650px){
-    ul{
+@media(min-width:850px){
+    nav .fa{
         display: none;
+    }
+    
+}
+@media(max-width:850px){
+    nav ul{
+        display: none;
+        flex-direction: column;
+    }
+    nav .active{
+        
+        display: block;
+    }
+    nav{
+        justify-content: space-around;
+        display: flex;
+        flex-direction: column;
     }
 }
 .icons{
@@ -93,7 +147,7 @@ ul{
     width: 100%;   
     background-color: rgb(239,239,239);
     text-align: center;
-    background-image: url("images/square-bg.jpg");
+    
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -148,6 +202,7 @@ ul{
     /* adjust the value to the desired zoom level */
 }
 .card{
+    flex: 1 1 auto;
     border: 1px solid black;
     width: 355px;
     height: 320px;
@@ -172,11 +227,22 @@ ul{
     justify-content: center;
 }
 .card-container{
+    
     margin-top: -200px;
     display: flex;
     gap: 10px;
     justify-content: center;
 
+}
+@media (max-width:1350px){
+    #rooms{
+     height: 750px;
+
+    }
+    .card-container{
+        display:flex;
+        flex-wrap:wrap;
+    }
 }
 @media (max-width:950px) {
     .card-container{
@@ -374,4 +440,117 @@ input{
 }
 .location{
     margin-bottom: 150px;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    
+}.contact-top{
+    display: flex;
+}
+textarea{
+    margin-top: 10px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    
+}
+.contact-bottom{
+    display: flex;
+}
+.contact-details{
+    display: flex;
+    gap: 15px;
+}
+.detail{
+    gap: 5px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:900px){
+    .detail{
+        text-align: center;
+        display: flex;
+        align-items:center ;
+        flex-direction: column;
+    }
+    .contact-details{
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 40px;
+    }
+}
+.contact input[type=text], .contact input[type=email]{
+    padding: 10px;
+ }
+.contact input, .contact textarea{
+    border: 0;
+   outline: none;
+   padding: 15px;
+}
+.contact input[type=text]{
+    margin-top: 10px;
+    
+    margin-bottom: 3px;
+ }
+ 
+ .contact input[type=email]{
+ }
+.contacts{
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    gap:5px;
+}
+.contact-image img{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+    height: 100%;
+    max-height: 200px;
+
+}
+.contact-form{
+    display: flex;
+    gap: 15px;
+}
+@media (max-width:900px){
+    .contact-form{
+        display:flex;
+        flex-direction: column;
+    }
+    .contacts{
+        display: flex;
+        justify-content: center;
+        align-items:center ;
+        flex-direction: column;
+    }
+
+}
+.contact-form .left{
+    display: flex;
+    flex-direction: column;
+}
+.contact-form .right{
+    display: flex;
+    flex-direction: column;
+}
+.icon{
+    display: flex;
+}
+.icon p{
+    display: inline;
 }

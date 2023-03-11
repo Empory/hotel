@@ -1,24 +1,50 @@
 <?php include("header.php")?>
+            
             <div class="home">
-                <div class="about-hotel">
-                    <h2>HOTEL</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, qui modi dolorum libero sunt voluptas saepe quisquam cumque odit. Quidem exercitationem error ducimus, provident, ex corporis, officia repellendus nisi rerum vitae illum itaque ipsum. Error recusandae aut excepturi quam possimus adipisci dolores nemo magni, sapiente molestiae esse commodi dignissimos similique? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod quae inventore quam ipsa porro commoditotam maxime adipisci quia, necessitatibus accusantium corrupti velit, nisi distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, corporis dolor recusandae ullam cumque quaerat?</p>
-                </div>
+              <h1 style="text-align:center; padding: 35px 0;" >İLETİŞİM FORMU</h1>
+              <p style="text-align:center;" >İstek ve Önerilerinizi formu doldurarak bize yazabilirsiniz</p>
+              <div class="contacts">
+                <div class="contact">
+                  <div class="contact-top">
+                    <div class="contact-form">
+                      <div class="left">
+                        <input class="isim" type="text" placeholder="İsim">
+                        <input type="text" placeholder="Soyisim">
+                        <input type="email" placeholder="E-posta">
+                      </div>
+                      <div class="right">
+                        <textarea placeholder="Mesajınız" name="" id="" cols="40" rows=5"></textarea>
+                        <input type="submit" style="border:none; margin-top:8px;padding:13px;background-color:rgb(112,164,119);font-size:15px; color: white;" value="GÖNDER">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="contact-bottom"> 
+                    <div class="contact-details">
+                      <div class="detail">
+                        <img class="icon" src="images/smartphone-call.png" alt="">
+                        <p>+90 555 444 11 22</p>
+                      </div>
+                      <div class="detail">
+                        <img class="icon" src="images/old-typical-phone.png" alt="">
+                        <p>+90 264 333 33</p>
+                      </div>
+                      <div class="detail">
+                        <img class="icon" src="images/icons8-place-marker-50.png"></a>
+                        <p>Sakarya/Adapazarı</p>
+                      </div>
+                      <div class="detail">
+                        <img class="icon" src="images/smartphone-call.png" alt="">
+                        <p>hotelname@gmail.com</p>
+                      </div>
+                    </div>
+                  </div>   
+                </div> 
+                <div class="contact-image">
+                  <img src="images/hotel-ring.jpg" alt="">
+                </div>  
+              </div> 
+              
             </div>
-            <div class="follow">
-                <h1>Bizi Sosyal Medyadan Takip Edin</h1>
-                <div class="icons">
-                  <a href="https://www.facebook.com/hotelon7" target="_blank">
-                    <i class="fa-brands fa-facebook-f"></i>
-                  </a>
-                  <a href="https://twitter.com/hotelon7" target="_blank">
-                    <i class="fa-brands fa-twitter"></i></a>
-                  <a href="https://www.instagram.com/hotelon7/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                  <a href="https://www.linkedin.com/uas/login?session_redirect=%2Fcompany%2F18132223%2F" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-                </div>
-            </div>
-            <div class="location">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.4710625098487!2d30.397038951351163!3d40.773656979223915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ccb32e76fb7e15%3A0x564b4187c811f257!2sAda%20Felicity%20Otel!5e0!3m2!1str!2str!4v1678434429920!5m2!1str!2str" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+            <?php include("footer.php") ?>
     
         </div>    
