@@ -6,17 +6,21 @@
               <div class="contacts">
                 <div class="contact">
                   <div class="contact-top">
-                    <div class="contact-form">
-                      <div class="left">
-                        <input class="isim" type="text" placeholder="İsim">
-                        <input type="text" placeholder="Soyisim">
-                        <input type="email" placeholder="E-posta">
+                    <form id="contact-form" 
+                      action="" method="POST">
+                      <div class="contact-form">
+                        <div class="left">
+                          <input name="first_name" required class="isim" type="text" placeholder="İsim">
+                          <input name="last_name" required  type="text" placeholder="Soyisim">
+                          <input name="email" id="email" required class="email" type="email" placeholder="E-posta">
+                        </div>
+                        <div class="right">
+                          <textarea required name="message" placeholder="Mesajınız"id=""
+                           cols="40" rows="5"></textarea>
+                          <input type="submit" style="border:none; margin-top:8px;padding:13px;background-color:rgb(112,164,119);font-size:15px; color: white;" value="GÖNDER">
+                        </div>
                       </div>
-                      <div class="right">
-                        <textarea placeholder="Mesajınız" name="" id="" cols="40" rows=5"></textarea>
-                        <input type="submit" style="border:none; margin-top:8px;padding:13px;background-color:rgb(112,164,119);font-size:15px; color: white;" value="GÖNDER">
-                      </div>
-                    </div>
+                    </form>  
                   </div>
                   <div class="contact-bottom"> 
                     <div class="contact-details">

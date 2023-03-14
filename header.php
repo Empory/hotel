@@ -42,23 +42,12 @@
                     </ul>
                 </nav>
             </header>
-            <img class="banner" src="images/img.jpg" alt="">
+            <img class="banner" src="https://adafelicityhotel.com/wp-content/uploads/2022/12/FELICITYBANNER1.png" alt="">
+            <h2 style="font-size:7vw;text-align:right;position:absolute; top:180px; left:86px;color:#6b4748 !important; text-decoration:underline";
+             class="u-align-right u-text u-text-palette-2-dark-2 u-text-1">ADA<br>FELICITY<br>HOTEL! 
+            </h2>
+            <!-- <p style="font-family: 'Lobster', cursive;;font-size:25px;text-align:right;position:absolute; top:310px; left:86px;color:#6b4748 !important; text-decoration:underline"; >Konforun adresi</p>
+             -->
             
-            <div class="icons">
-                <ul>
-                    <li>
-                        <img src="https://hotelon7.com/static/images/isdunyasi.svg" alt="">
-                        <p>Adapazarının Merkezinde</p>
-                    </li>
-                    <li>
-                        <img src="https://hotelon7.com/static/images/otobus.svg" alt="">
-                        <p>Otobüs Durağına yakın</p>
-                    </li>
-                    <li>
-                        <img src="https://hotelon7.com/static/images/tren.svg" alt="">
-                        <p>Gar Meydanına Yakın Mesafede</p>
-                    </li>
-                </ul>
-            </div>
         </div>
        

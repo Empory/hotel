@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 html {
     scroll-behavior: smooth;
@@ -8,17 +10,19 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 body{
     height: 100vh;
     display: flex;
     justify-content: center;
-    font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
    
 }
 .main{
     width: 100%;
+    position:relative;
+    
 }
 .top{
     gap: 85px;
@@ -41,7 +45,7 @@ header{
     
 }
 .banner{
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     width: 100%;
@@ -502,8 +506,9 @@ textarea{
     margin-bottom: 3px;
  }
  
- .contact input[type=email]{
- }
+ .contact input{
+    font-size: 15px;
+}
 .contacts{
     padding: 100px 0;
     display: flex;

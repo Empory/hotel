@@ -17,14 +17,10 @@
 
 
 
-
-
-
-
-
-
-
-
+    
+      
+    <script src="htttps://smtpjs.com/v3/smtp.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>      
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="script.js"></script>

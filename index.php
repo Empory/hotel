@@ -1,4 +1,20 @@
 <?php include("header.php")?>
+        <div class="icons">
+            <ul>
+                <li>
+                    <img src="https://hotelon7.com/static/images/isdunyasi.svg" alt="">
+                    <p>Adapazarının Merkezinde</p>
+                </li>
+                <li>
+                    <img src="https://hotelon7.com/static/images/otobus.svg" alt="">
+                    <p>Otobüs Durağına yakın</p>
+                </li>
+                <li>
+                    <img src="https://hotelon7.com/static/images/tren.svg" alt="">
+                    <p>Gar Meydanına Yakın Mesafede</p>
+                </li>
+            </ul>
+        </div>
         <div class="home">
             <div class="about-hotel">
                 <h2>HOTEL</h2>
@@ -10,7 +26,7 @@
                     
                     <div class="card-container">
                         
-                        <a href="https://www.google.com/">
+                        <a href="room.php">
                             <div class="card">
                                 <div class="image-container">
                                     <img src="images/standart.jpg" alt="">
@@ -18,7 +34,7 @@
                                 <p>STANDART ODA</p>
                             </div>
                         </a>
-                        <a href="https://www.google.com/">
+                        <a href="room.php">
                             <div class="card">
                                 <div class="image-container">
                                     <img src="images/deluxe.jpg" alt="">
@@ -27,7 +43,7 @@
                             </div>
                         </a>    
                     
-                        <a href="https://www.google.com/">
+                        <a href="room.php">
                             <div class="card">
                                 <div class="image-container">
                                     <img src="images/suite.jpg" alt="">
@@ -36,7 +52,7 @@
                             </div>
                         </a>    
                         
-                        <a href="https://www.google.com/">
+                        <a href="room.php">
                             <div class="card">
                                 <div class="image-container">
                                     <img src="images/rooftop-deluxe.jpg" alt="">
